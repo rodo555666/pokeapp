@@ -5,7 +5,7 @@ import axios from 'axios';
 import Pokecard from '../componentes/pokedex/Pokecard';
 import Pagination from '../componentes/pokedex/Pagination';
 import { useNavigate } from 'react-router-dom';
-import './individual.css'
+import './pokedex.css'
 
 
 const Pokedex = () => {

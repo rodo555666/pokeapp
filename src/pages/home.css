@@ -1,0 +1,27 @@
+
+.hom { 
+ 
+}
+p {  text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.saludo {
+    color: #FE1936;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.name { 
+    width: 662px;
+   height: 50px;
+}
+
+.btnhome { 
+    font-size: 1.4rem;
+    color: aliceblue;
+    height: 55px;
+    width: 100px;
+   background: #D93F3F; 
+ 
+}

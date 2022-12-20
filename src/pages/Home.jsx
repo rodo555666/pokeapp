@@ -3,7 +3,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setTrainerGlobal } from '../store/slices/Trainer.slice'
-
+import './home.css'
 const Home = () => {
 
   const dispach = useDispatch()
@@ -20,10 +20,13 @@ const handleSubmit = e => {
 
     
   return (
-    <><div>Home</div>
-    <form onSubmit={handleSubmit}>
-      <input id='string' type="text" />
-      <button>start</button>
+    <><div className='hom'>
+      <h2 className='saludo'>¡hola entrenador!</h2>
+      <p>escribe tu nombre</p>
+    </div>
+    <form  onSubmit={handleSubmit}>
+      <input className='name' id='string' type="text" />
+      <button className='btnhome'>start</button>
     </form></>
   )
 }
