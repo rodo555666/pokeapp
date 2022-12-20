@@ -1,0 +1,23 @@
+body {
+  background: #E5E5E5;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+ul {
+  list-style:none;
+  padding-left: 0;
+}
+
+button { 
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+input { 
+  outline: 0;
+}

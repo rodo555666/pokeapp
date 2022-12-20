@@ -1,0 +1,35 @@
+.list { 
+   display: flex;
+   gap: 15%;
+}
+
+.bot {  font-size: 1.5rem;
+    color: rgb(91, 93, 94);
+    font-weight: 600;
+    text-align: center;
+    font-size: 2 rem;
+     background-color: rgb(199, 196, 196);
+    padding: 2%;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pag { 
+    text-align: center;
+    padding: 2%;
+    height: 25px;
+    width: 50px;
+    font-size: 2rem;
+    color: rgb(7, 7, 7);
+    background-color: rgb(199, 196, 196);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.page_active {
+     background-color: red;
+     color: whitesmoke;
+    
+}

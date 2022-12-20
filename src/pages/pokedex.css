@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.rojo { 
+    color: #D93F3F;
+}
+
+.bienvenida { 
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    
+}
+.form { 
+    position: relative;
+    right: 250px;
+   
+}
+
+.buscar { 
+    width: 80%;
+    border: none;
+    padding: 2%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btnbus { 
+    font-size: 1.rem;
+    color: aliceblue;
+    background: #D93F3F; 
+    border: none;
+    padding: 2%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+   
+}
+
+.select { 
+    position: relative;
+    bottom: 50px ;
+   left: 600px;
+    border: none;
+    padding: 2%;
+    width: 300px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    
+}
